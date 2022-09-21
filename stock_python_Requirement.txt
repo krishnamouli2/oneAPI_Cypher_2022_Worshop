@@ -1,0 +1,10 @@
+conda create -n stock_python -c defaults python=3.9
+conda activate stock_python
+pip list
+pip install tensorflow-cpu==2.9
+pip install tensorflow-addons
+pip install matplotlib,imageio, medmnist
+pip install scikit-learn,pytictoc 
+conda list
+pip install ipykernel
+ipython kernel install --name stock_python --user
