@@ -1,0 +1,7 @@
+cd $PBS_O_WORKDIR
+echo "Python Version "
+python3 --version
+echo "The cpu model name is"
+lscpu |grep Model
+echo "Lets train the model"
+python3 /home/u52972/Demo_for_cypher_2022/Image_Classification.py
